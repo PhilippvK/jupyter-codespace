@@ -8,7 +8,7 @@ RUN if [ -f "/tmp/conda-tmp/environment.yml" ]; then /opt/conda/bin/conda env up
 
 # Install chrome browser
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install software-properties-common build-essential vim tree screen nohup
+    && apt-get -y install software-properties-common build-essential vim tree screen
 RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 RUN dpkg -i google-chrome-stable_current_amd64.deb
 RUN rm google-chrome-stable_current_amd64.deb

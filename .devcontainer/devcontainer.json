@@ -20,7 +20,10 @@
 		"python.linting.flake8Path": "/opt/conda/bin/flake8",
 		"python.linting.pycodestylePath": "/opt/conda/bin/pycodestyle",
 		"python.linting.pydocstylePath": "/opt/conda/bin/pydocstyle",
-		"python.linting.pylintPath": "/opt/conda/bin/pylint"
+		"python.linting.pylintPath": "/opt/conda/bin/pylint",
+		"browser-preview.chromeExecutable": "/usr/bin/google-chrome",
+		"browser-preview.startUrl": "http://localhost:8888",
+		"browser-preview.verbose": true
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.

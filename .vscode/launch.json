@@ -13,4 +13,15 @@
             "console": "integratedTerminal"
         }
     ]
+},
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "type": "browser-preview",
+            "request": "launch",
+            "name": "Browser Preview: Launch",
+            "url": "http://localhost:8888"
+        }
+    ]
 }
